@@ -10,13 +10,22 @@ import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatinDiv from "../FloatingDiv/FloatingDiv.jsx";
 import './Intro.css'
+import { themeContext } from '../../Context.jsx';
+import { useContext } from 'react';
+import {motion} from 'framer-motion'
 
 function Intro() {
+
+  const transition={duration:2,type:'spring'}
+
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
-    <div className="Intro">
+    <div className="Intro" >
         <div className="i-left">
             <div className="i-name">
-                <span>Hy! I Am</span>
+                <span style={{color:darkMode?'white':''}}>Hy! I Am</span>
                 <span>Ayush Tiwari</span>
                 <span>Frontend Developer with high level of experience in web designing
             and development, producting the Quality work</span>
@@ -37,29 +46,41 @@ function Intro() {
             <img src={Vector1} alt="" />
             <img src={Vector2} alt="" />
             <img src={boy} alt="" />
-            <img src={glassesimoji} alt=""/>
+            <motion.img 
+            initial={{left:'-36%'}}
+            whileInView={{left:'-24%'}}
+            transition={transition}
+            src={glassesimoji} alt=""/>
 
-            <div style={{top:'-4%',left:'68%'}}>
-            <FloatinDiv img={crown} text1="Web" text2="Developer" />
-        </div>
+            <motion.div 
+            initial={{top:'-4%',left:'74%'}}
+            whileInView={{left:'68%'}}
+            transition={transition}
+            style={{top:'-4%',left:'68%'}}>
+              <FloatinDiv img={crown} text1="Web" text2="Developer" />
+            </motion.div>
 
 
-        <div style={{top:'18rem',left:'0rem'}}>
-            {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
-        </div>
+           <motion.div
+           initial={{left:'9rem',top:'18rem'}}
+           whileInView={{left:'0rem'}}
+           transition={transition}
+            style={{top:'18rem',left:'0rem'}}>
+             {/* floatinDiv mein change hy dark mode ka */}
+             <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+           </motion.div>
 
             <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
-        <div
-          className="blur"
-          style={{
-            background: "#C1F5FF",
-            top: "17rem",
-            width: "21rem",
-            height: "11rem",
-            left: "-9rem",
-          }}
-        ></div>
+            <div
+              className="blur"
+              style={{
+              background: "#C1F5FF",
+              top: "17rem",
+              width: "21rem",
+              height: "11rem",
+              left: "-9rem",
+            }}
+            ></div>
 
         </div>
     </div>
