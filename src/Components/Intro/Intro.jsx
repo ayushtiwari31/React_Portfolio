@@ -27,7 +27,7 @@ function Intro() {
             <div className="i-name">
                 <span style={{color:darkMode?'white':''}}>Hy! I Am</span>
                 <span>Ayush Tiwari</span>
-                <span>Frontend Developer with high level of experience in web designing
+                <span>MERN Stack Developer with high level of experience in web designing
             and development, producting the Quality work</span>
             </div>
             <button className="button i-button">Hire me</button>
@@ -67,7 +67,7 @@ function Intro() {
            transition={transition}
             style={{top:'18rem',left:'0rem'}}>
              {/* floatinDiv mein change hy dark mode ka */}
-             <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+             <FloatinDiv img={thumbup} text1="Competitive Programmer" text2="" />
            </motion.div>
 
             <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

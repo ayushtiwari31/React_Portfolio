@@ -1,9 +1,14 @@
 import React from 'react'
 import Upwork from "../../img/Upwork.png";
-import Fiverr from "../../img/fiverr.png";
+import Fiverr from "../../img/fiverr.png"
 import Amazon from "../../img/amazon.png";
 import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
+import Reactjs from "../../img/react.png"
+import Mongo from "../../img/mongo.png"
+import Node from "../../img/node.png"
+import Express from '../../img/express.png'
+import js from '../../img/js.png'
 import './Works.css'
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
@@ -48,20 +53,25 @@ function Works() {
              transition={{ duration: 3.5, type: "spring" }}
              className="w-mainCircle">
 
-              <div className="w-secCircle">
-                 <img src={Upwork} alt="" />
+              <div className="w-secCircle mongo">
+                 {/* <img src={Upwork} alt="" /> */}
+                 <img src={Mongo} alt="" />
                </div>
-               <div className="w-secCircle">
-                 <img src={Fiverr} alt="" />
+               <div className="w-secCircle express">
+                 {/* <img src={Fiverr} alt="" /> */}
+                 <img src={Express} alt="" />
                </div>
-               <div className="w-secCircle">
-                 <img src={Amazon} alt="" />
+               <div className="w-secCircle js">
+                 {/* <img src={Amazon} alt="" /> */}
+                 <img src={js} alt="" / >
                </div>{" "}
-               <div className="w-secCircle">
-                 <img src={Shopify} alt="" />
+               <div className="w-secCircle node">
+                 {/* <img src={Shopify} alt="" /> */}
+                 <img src={Node} alt="" />
                </div>
-               <div className="w-secCircle">
-                 <img src={Facebook} alt="" />
+               <div className="w-secCircle react">
+                 {/* <img src={Facebook} alt="" /> */}
+                 <img src={Reactjs} alt="" />
                </div>
 
             </motion.div>

@@ -49,7 +49,7 @@
     box-shadow: var(--smboxShadow);
     top: 2rem;
     background: white;
-    /* darkMode */
+   
     z-index: 2;
   }
   .w-mainCircle > * {
@@ -111,6 +111,12 @@
     left: 18rem;
     top: 8rem;
   }
+
+  .w-secCircle>img{
+    transform: scale(0.2);
+    background-color: transparent;
+  }
+  
   
 
   @media screen and (max-width: 480px) {

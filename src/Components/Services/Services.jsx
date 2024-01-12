@@ -25,7 +25,8 @@ function Services() {
         {/* left side */}
         <div className="awesome">
             <span style={{color:darkMode?'white':''}}>MyAwesome</span>
-            <span>services</span>
+            {/* <span>services</span> */}
+            <span>Resume</span>
             <span>
               Lorem ispum is simpley dummy text of printing of printing Lorem
               <br />
@@ -46,10 +47,15 @@ function Services() {
         initial={{left:'27rem'}}
         transition={transition}
         >
-          <Card
+          {/* <Card
             emoji={HeartEmoji}
             heading={"Design"}
             detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
+          /> */}
+          <Card
+          emoji={Humble}
+          heading={"Technologies"}
+          detail={"Node.Js ,MongoDB ,React, ExpressJs,Git/GitHub"}
           />
         </motion.div>
 
@@ -59,10 +65,15 @@ function Services() {
         whileInView={{ left: "-3rem" }}
         transition={transition}
          style={{top:'12rem',left:'-1rem'}}>
-          <Card
+          {/* <Card
             emoji={Glasses}
             heading={"Developer"}
             detail={"Html, Css, JavaScript, React, Nodejs, Express"}
+          /> */}
+          <Card
+            emoji={Glasses}
+            heading={"Languages"}
+            detail={"C ,C++ ,Html ,Css , JavaScript, SQL"}
           />
         </motion.div>
 
@@ -73,13 +84,18 @@ function Services() {
         transition={transition}
         
         style={{top:'19rem',left:'18rem'}}>
-          <Card
+          {/* <Card
             emoji={Humble}
             heading={"UI/UX"}
             detail={
               "Lorem ispum dummy text are usually use in section where we need some random text"
             }
             color="rgba(252, 166, 31, 0.45)"
+          /> */}
+          <Card
+            emoji={HeartEmoji}
+            heading={"Interests"}
+            detail={"DSA ,Web Development , Problem Solving"}
           />
         </motion.div>
 

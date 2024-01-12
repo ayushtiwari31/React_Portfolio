@@ -21,7 +21,7 @@ function Navbar() {
                  
                     <li>
                     <Link to="services" spy={true} smooth={true}>
-                      Services
+                      Resume
                     </Link>
                     </li>
 

@@ -10,19 +10,19 @@ function Experience() {
   return (
     <div className="experience">
         <div className="achievement">
-            <div className="circle">8+</div>
+            <div className="circle">2+</div>
             <span style={{color:darkMode?'white':''}}>years</span>
             <span>Experience</span>
         </div>
         <div className="achievement">
-            <div className="circle">20+</div>
-            <span style={{color:darkMode?'white':''}}>completed</span>
-            <span>Projects</span>
+            <div className="circle">600+</div>
+            <span style={{color:darkMode?'white':''}}>DSA</span>
+            <span>questions</span>
         </div>
         <div className="achievement">
             <div className="circle">5+</div>
-            <span style={{color:darkMode?'white':''}}>companies</span>
-            <span>Work</span>
+            <span style={{color:darkMode?'white':''}}>Web Development</span>
+            <span>projects</span>
         </div>
     </div>
   )
