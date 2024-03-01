@@ -30,7 +30,7 @@ function Navbar() {
                     </Link>
                     </li>
 
-                    <li>
+                    {/* <li>
                     <Link to="portfolio" spy={true} smooth={true}>Portfolio
                     </Link>
                     </li>
@@ -38,7 +38,7 @@ function Navbar() {
                     <li>
                     <Link to="testimonial" spy={true} smooth={true}>Testimonials
                     </Link>
-                    </li>
+                    </li> */}
 
                 </ul>
             </div>

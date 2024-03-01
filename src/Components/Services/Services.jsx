@@ -6,7 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 
-import Resume from './resume.pdf';
+// import Resume from './resume.pdf';
 import {motion} from 'framer-motion'
 
 
@@ -27,13 +27,13 @@ function Services() {
             <span style={{color:darkMode?'white':''}}>MyAwesome</span>
             {/* <span>services</span> */}
             <span>Resume</span>
-            <span>
-              Lorem ispum is simpley dummy text of printing of printing Lorem
+            {/* <span>
+              Hello , This Is my resume.
               <br />
               ispum is simpley dummy text of printing
-            </span>
-
-            <a href={Resume} download>
+            </span> */}
+{/* href={Resume} download */}
+            <a >
                <button className="button s-button">Download CV</button>
             </a>
             <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>

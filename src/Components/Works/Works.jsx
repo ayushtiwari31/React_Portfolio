@@ -26,15 +26,17 @@ function Works() {
             <div className="awesome">
                 <span style={{color:darkMode?'white':''}}>Works for All these</span>
                 <span>Technologies</span>
-                <span>
-                    Lorem ispum is simpley dummy text of printing of printing Lorem
+                <span style={{fontWeight:'bold',fontSize:'0.9rem'}}>
+                    I am very passionate about Technology.
                     <br />
-                    ispum is simpley dummy text of printingLorem ispum is simpley dummy
-                    text
                     <br />
-                    y dummy text of printingLorem
+                    Currently ,We have experience in HTML ,CSS, JavaScript ,ReactJs .
                     <br />
-                    ispum is simpley dummy text of printing
+                    <br />
+                    And for Backend I have Experiance in Nodejs, PHP, MongoDB ,Express, MySQl,
+                    <br />
+                    <br />
+                    We also offer Word Press Development.
                 </span>
                 <button className="button s-button">Hire Me</button>
 
