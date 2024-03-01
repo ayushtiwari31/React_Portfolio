@@ -10,7 +10,7 @@ function Experience() {
   return (
     <div className="experience">
         <div className="achievement">
-            <div className="circle">2+</div>
+            <div className="circle">3+</div>
             <span style={{color:darkMode?'white':''}}>years</span>
             <span>Experience</span>
         </div>
@@ -20,7 +20,7 @@ function Experience() {
             <span>questions</span>
         </div>
         <div className="achievement">
-            <div className="circle">5+</div>
+            <div className="circle">50+</div>
             <span style={{color:darkMode?'white':''}}>Web Development</span>
             <span>projects</span>
         </div>
