@@ -73,7 +73,7 @@ function Services() {
           <Card
             emoji={Glasses}
             heading={"Languages"}
-            detail={"C ,C++ ,Html ,Css , JavaScript, SQL"}
+            detail={"C ,C++ ,Html ,Css , JavaScript, SQL, PHP"}
           />
         </motion.div>
 
@@ -95,7 +95,7 @@ function Services() {
           <Card
             emoji={HeartEmoji}
             heading={"Interests"}
-            detail={"DSA ,Web Development , Problem Solving"}
+            detail={"DSA ,Web Development , Problem Solving ,Graphic Designing "}
           />
         </motion.div>
 
