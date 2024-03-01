@@ -25,7 +25,7 @@ function Works() {
         <div className="w-left">
             <div className="awesome">
                 <span style={{color:darkMode?'white':''}}>Works for All these</span>
-                <span>Brands & Clients</span>
+                <span>Technologies</span>
                 <span>
                     Lorem ispum is simpley dummy text of printing of printing Lorem
                     <br />
