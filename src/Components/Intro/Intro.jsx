@@ -26,9 +26,9 @@ function Intro() {
         <div className="i-left">
             <div className="i-name">
                 <span style={{color:darkMode?'white':''}}>Hy! I Am</span>
-                <span>Suraj Saxena</span>
+                <span>Ayush Tiwari</span>
                 <span>MERN Stack Developer with high level of experience in web designing
-            and development, producting the Quality work</span>
+            and development, producing the Quality work</span>
             </div>
             <button className="button i-button">Hire me</button>
             <div className="i-icons">
